@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur Mbah Surip - Katalog Makanan</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fffaf3;
+            color: #333;
+        }
+
+        header {
+            background: #e85d04;
+            color: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 24px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 65px 20px;
+            background: #ffedd8;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            color: #9d3800;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 16px;
+            margin-bottom: 22px;
+        }
+
+        .produk {
+            padding: 40px 8%;
+        }
+
+        .produk h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .daftar-produk {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 22px;
+        }
+
+        .kartu {
+            background: white;
+            border-radius: 14px;
+            padding: 22px;
+            text-align: center;
+            box-shadow: 0 4px 15px #00000012;
+        }
+
+        .gambar {
+            font-size: 65px;
+            margin-bottom: 15px;
+        }
+
+        .kartu h3 {
+            margin-bottom: 10px;
+        }
+
+        .harga {
+            color: #e85d04;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .tombol {
+            display: inline-block;
+            background: #e85d04;
+            color: white;
+            text-decoration: none;
+            padding: 11px 20px;
+            border-radius: 8px;
+        }
+
+        .tombol:hover {
+            background: #b94700;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Dapur Mbah Surip</h2>
+        <span>Katalog Makanan</span>
+    </header>
+
+    <section class="hero">
+        <h1>Selamat Datang di Dapur Mbah Surip!</h1>
+        <p>Temukan makanan dan minuman favoritmu di sini.</p>
+        <a href="#produk" class="tombol">Lihat Produk</a>
+    </section>
+
+    <section class="produk" id="produk">
+        <h2>Menu Favorit Kami</h2>
+
+        <div class="daftar-produk">
+
+            <div class="kartu">
+                <div class="gambar">🍔</div>
+                <h3>Beef Burger</h3>
+                <p class="harga">Rp15.000</p>
+                <a class="tombol" href="https://wa.me/6285874065476">
+                    Pesan Sekarang
+                </a>
+            </div>
+
+            <div class="kartu">
+                <div class="gambar">🍜</div>
+                <h3>Mie Goreng</h3>
+                <p class="harga">Rp12.000</p>
+                <a class="tombol" href="https://wa.me/6285874065476">
+                    Pesan Sekarang
+                </a>
+            </div>
+
+            <div class="kartu">
+                <div class="gambar">🥤</div>
+                <h3>Es Teh</h3>
+                <p class="harga">Rp5.000</p>
+                <a class="tombol" href="https://wa.me/6285874065476">
+                    Pesan Sekarang
+                </a>{}
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Dapur Mbah Surip | Dibuat oleh Dicki Arrobi</p>
+        <p>Info Pembuatan Website hub.085874065476</p>
+    </footer>
+
+</body>
+</html>
